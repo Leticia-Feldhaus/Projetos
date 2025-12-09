@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-widht, initial-scale=1">
+    <title>Group Cine</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+
+</head>
+
+<body id="programação">
+    <header>
+        <nav>
+            <div id="top-bar">
+                <p>Estou aqui:</p><i class="fa-solid fa-location-dot"></i><select>
+                    <option value="saopaulo/sp">São Paulo/SP</option>
+                    <option value="valinhos/sp">Valinhos/SP</option>
+                    <option value="riodosul/sc">Rio do Sul/SC</option>
+                    <option value="palhoca/sc">Palhoça/SC</option>
+                    <option value="setelagoas/mg">Sete Lagoas/MG</option>
+                </select>
+                <div class="redes">
+                    <p class="siga-redes">Siga-nos nas redes:</p>
+                    <a href="https://www.instagram.com/grupocinecinemas?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                        target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/GrupoCineCinemas" target="_blank"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.tiktok.com/@_grupocinecinema" target="_blank"><i
+                            class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+            <div id="menu-principal">
+                <a href="index.html#inicio"><img src="img/groupo-cinema-img.png" alt="Grupo Cinema"></a>
+                <a href="emcartaz.html#emcartaz">Em Cartaz</a>
+                <a href="programação.html#programação">Programação</a>
+                <a href="promoção.html#promoção">Promoções</a>
+                <a href="emcartaz.html#embreve">Em Breve</a>
+                <a href="#serviços">Serviços</a>
+                <a href="#atendimentos">Atendimentos</a>
+                <a href="primeclub.html#prime">Prime Club</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <h4><a href="index.html#inicio">Home</a>/ Programação</h4>
+            <h1>Programação da semana:</h1>
+            <div><button>
+                    <h4>HOJE</h4>
+                    <h2>08</h2>
+                    <h4>DEZ</h4>
+                </button><button>
+                    <h4>AMANHÃ</h4>
+                    <h2>09</h2>
+                    <h4>DEZ</h4>
+                </button><button>
+                    <h4>QUARTA</h4>
+                    <h2>10</h2>
+                    <h4>DEZ</h4>
+                </button><button>
+                    <h4>QUINTA</h4>
+                    <h2>11</h2>
+                    <h4>DEZ</h4>
+                </button><button>
+                    <h4>SEXTA</h4>
+                    <h2>12</h2>
+                    <h4>DEZ</h4>
+                </button><button>
+                    <h4>SABADO</h4>
+                    <h2>13</h2>
+                    <h4>DEZ</h4>
+                </button><button>
+                    <h4>DOMINGO</h4>
+                    <h2>14</h2>
+                    <h4>DEZ</h4>
+                </button></div>
+        </div>
+    </main>
+    <div>
+        <table>
+            <thead>
+                <th colspan="4">Five Nights at Freddy's 2</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3"><img src="img/Five-Nights-at-Freddys-2.jpg" alt="filme-Five-Nights-at-Freddys-2"
+                            width="250"></td>
+                    <td>Genero:Terror</td>
+                    <td>Duração:104</td>
+                    <td><button>Assista ao trailer</button></td>
+                </tr>
+                <tr>
+                    <td colspan="3">Sala: 1 - Dublado <button>
+                            <h4>Comprar</h4>
+                            <h3>18:30</h3>
+                        </button><button>
+                            <h4>Comprar</h4>
+                            <h3>21:00</h3>
+                        </button></td>
+                    </td>
+                </tr>
+            </tbody>
+            <thead>
+                <th colspan="4">Zootopia 2</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3"><img src="img/zootopia.jpg" alt="filme-Zootopia-2" width="250"></td>
+                    <td>Genero:Animação</td>
+                    <td>Duração:108</td>
+                    <td><button>Assista ao trailer</button></td>
+                </tr>
+                <tr>
+                    <td colspan="3">Sala: 2 - Dublado <button>
+                            <h4>Comprar</h4>
+                            <h3>16:30</h3>
+                        </button><button>
+                            <h4>Comprar</h4>
+                            <h3>20:00</h3>
+                        </button></td>
+                </tr>
+            </tbody>
+            <thead>
+                <th colspan="4">Wicked-2</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3"><img src="img/wicked-2.jpg" alt="filme-Wicked-2" width="250"></td>
+                    <td>Genero:Terror</td>
+                    <td>Duração:104</td>
+                    <td><button>Assista ao trailer</button></td>
+                </tr>
+                <tr>
+                    <td colspan="3">Sala: 2 - Dublado <button>
+                            <h4>Comprar</h4>
+                            <h3>17:30</h3>
+                        </button><button>
+                            <h4>Comprar</h4>
+                            <h3>19:00</h3>
+                        </button></td>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <footer>
+        <div class="rodapé">
+            <h3 id="promoções">Promoções</h3><span class="seta"><img src="icones/icons8-arrow.png" alt="ícone"
+                    width="20"></span>
+            <a href="promoção.html#promoção"><p>Pacote Família</p></a>
+            <a href="promoção.html#promoção"><p>Dia dos Namorados</p></a>
+            <a href="promoção.html#promoção"><p>Pague Meia-Entrada</p></a>
+
+            <h3 id="serviços">Serviços</h3><span class="seta"><img src="icones/icons8-arrow.png" alt="ícone"
+                    width="20"></span>
+            <p>Aluguel de Salas</p>
+            <p>Anuncie nas Telas</p>
+            <p>Sessão Escola</p>
+            <h3 id="atendimentos">Atendimento</h3><span class="seta"><img src="icones/icons8-arrow.png" alt="ícone"
+                    width="20"></span>
+            <p>Duvidas</p>
+            <p>Fale Conosco</p>
+            <p>Trabalhe Conosco</p>
+            <h3 id="sobre">Sobre</h3><span class="seta"><img src="icones/icons8-arrow.png" alt="ícone"
+                    width="20"></span>
+            <p>Sobre Nós</p>
+            <p>Política de Privacidade</p>
+            <p>Política de Cookies</p>
+        </div>
+    </footer>
+</body>
+
+</html>
