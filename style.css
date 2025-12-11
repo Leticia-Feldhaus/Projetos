@@ -5,6 +5,9 @@ body{
     font-family: "Roboto";
     overflow-x: hidden;
 }
+main{
+    padding: 0px 1rem;
+}
 header nav p{
     color: white;
     font-weight: normal;
@@ -68,19 +71,49 @@ header nav i:hover{
     padding: 0px 1rem;
 }
 #menu-principal a{
+    height: 20px;
     color: white;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2rem;
     text-align: center;
     margin-right: 1rem;
-    margin: 0 auto 1rem;
+    margin-bottom: 2.5rem;
+    margin-top: 0 auto;
+    margin-bottom: 0 auto;
+}
+#vitrine{
+    max-width: 70%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1.5rem;
+}
+.filme{
+    height: 18rem;
+    background-color: aqua;
+    border: 3px solid #FF531E;
+    border-radius: 5px;
+}
+.exibiçao{
+    color: #C41925;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.filme img{
+    max-width: 100%;
+    height: 100%;   /* mantém a proporção correta */
+    display: block;
 }
 @media (max-width:480px){
     #top-bar .redes{
         display: none;
     }
-    .olamundo{
-        margin: 0 auto;
+}
+@media (max-width:992px){
+    #menu-principal img{
+        text-align: center;
+    }
+    #vitrine{
+        max-width: 100%;
     }
 }
