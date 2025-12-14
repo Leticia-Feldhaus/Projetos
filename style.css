@@ -124,6 +124,23 @@ header nav i:hover{
 .escolha{
     display: inline-block;
 }
+.slide{
+    height: 18rem;
+    width: 91%;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.slide img{
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+    transition: transform 0.5s ease;
+}
+.slide img:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
 @media (max-width:540px){
     #top-bar .redes{
         display: none;
