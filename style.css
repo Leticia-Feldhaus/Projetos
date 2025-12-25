@@ -7,7 +7,7 @@ body{
     overflow-x: hidden;
 }
 /*
-    Tirei a parte do Main{padding}, pois estava atrapalhando em outra parte
+    Tirei a parte do Main{padding}, pois estava atrapalhando em outras partes
 */
 header nav p{
     color: white;
