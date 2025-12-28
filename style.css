@@ -193,7 +193,7 @@ header nav i:hover{
 }
 .img-promoçoes{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
     gap: 20px;
 }
 .promo-img{
