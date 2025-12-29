@@ -1,8 +1,16 @@
 @charset "UTF8";
+:root{
+    --branco:#ffffff;
+    --preto-basico:#212529;
+    --cinza:rgb(179, 176, 176);
+    --laranja:#FF531E;
+    --vermelho-escuro:#C41925;
+    --vermelho-vinho:#88121a;
+}
 body{
     padding: 3rem 0px 0px 0px;
     margin: 0px;
-    background-color: #212529;
+    background-color: var(--preto-basico);
     font-family: "Roboto";
     overflow-x: hidden;
 }
@@ -10,13 +18,13 @@ body{
     Tirei a parte do Main{padding}, pois estava atrapalhando em outras partes
 */
 header nav p{
-    color: white;
+    color: var(--branco);
     font-weight: normal;
     display: inline-block;
     margin-right: 0.5rem;
 }
 header nav option{
-    color: rgb(179, 176, 176);
+    color: var(--cinza);
     background-color: #343A40;
     font-weight: bold;
     border: 3px solid red;
@@ -25,7 +33,7 @@ header select{
     margin-left: 0.3rem;
     background-color: transparent;
     border: none;
-    color: white;
+    color: var(--branco);
     outline: none;
     font-size: 0.9rem;
     padding-right: 8px;
@@ -38,7 +46,7 @@ header select:hover{
     margin-right: 2rem;
 }
 .redes a{
-    color: white;
+    color: var(--branco);
     font-size: 1.1rem;
     margin-right: 0.5rem;
 }
@@ -46,7 +54,7 @@ header select:hover{
     width: 100%;
     height: 3rem;
     position: fixed !important;
-    background-color: #212529;
+    background-color: var(--preto-basico);
     border-bottom: 0.5px solid rgb(133, 127, 127);
     top: 0px;
     padding: 0rem 1rem;
@@ -54,7 +62,7 @@ header select:hover{
     display: inline-block;
 }
 header nav i{
-    color: white;
+    color: var(--branco);
 }
 header nav i:hover{
     cursor: pointer;
@@ -73,14 +81,14 @@ header nav i:hover{
     height: 5rem;
     margin-top: 0px;
     background-image: radial-gradient(circle, #E61A23, #8D0106);
-    border-top: 0.6rem solid #FF531E;
-    border-bottom: 0.6rem solid #FF531E;
+    border-top: 0.6rem solid var(--laranja);
+    border-bottom: 0.6rem solid var(--laranja);
     padding: 0px 1rem;
     position: relative;
 }
 #menu-principal a{
     height: 20px;
-    color: white;
+    color: var(--branco);
     text-decoration: none;
     font-weight: 500;
     font-size: 1.2rem;
@@ -91,12 +99,13 @@ header nav i:hover{
     padding: 0px 1rem;
     max-width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    width: 81%;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 1.5rem;
 }
 .filme{
     height: 16rem;
-    border: 3px solid #FF531E;
+    border: 3px solid var(--laranja);
     border-radius: 8px;
     overflow: hidden;
     margin-top: 1rem;
@@ -110,10 +119,10 @@ header nav i:hover{
 }
 .exibiçao{
     padding: 0px 1rem;
-    color: #C41925;
+    color: var(--vermelho-escuro);
     font-weight: bold;
     font-size: 1.3rem;
-    text-decoration: underline 4px #C41925;
+    text-decoration: underline 4px var(--vermelho-escuro);
     text-underline-offset: 0.7rem;
 }
 .exibiçao:hover{
@@ -129,7 +138,7 @@ header nav i:hover{
     display: inline-block;
 }
 .slide{
-    height: 18rem;
+    height: 19rem;
     height: min-content;
     width: 91%;
     display: block;
@@ -151,8 +160,8 @@ header nav i:hover{
 .button-programaçao{
     width: 14rem;
     height: 2.5rem;
-    background-color: #C41925;
-    color: white;
+    background-color: var(--vermelho-escuro);
+    color: var(--branco);
     border: none;
     border-radius: 0.2rem;
     font-weight: 900;
@@ -161,15 +170,15 @@ header nav i:hover{
     transition: 0.3s;
 }
 .button-programaçao:hover{
-    background-color: #88121a;
+    background-color: var(--vermelho-vinho);
     transition: 0.3s;
     cursor: pointer;
 }
 .button-pequeno{
     width: 70%;
     height: 2.5rem;
-    background-color: #C41925;
-    color: white;
+    background-color: var(--vermelho-escuro);
+    color: var(--branco);
     border: none;
     border-radius: 0.2rem;
     font-weight: 900;
@@ -179,14 +188,14 @@ header nav i:hover{
     margin: 0 auto;
 }
 .button-pequeno:hover{
-    background-color: #88121a;
+    background-color: var(--vermelho-vinho);
     transition: 0.3s;
     cursor: pointer;
 }
 .promo-slide{
     padding: 2rem 1rem;
     background-color: #2E3235;
-    color: white;
+    color: var(--branco);
 }
 .promo-slide > h2{
     display: block;
@@ -220,7 +229,30 @@ header nav i:hover{
         margin: 0 auto;
     }
 }
+@media (max-width:480px){
+    #vitrine{
+        max-width: 100%;
+        gap: 1rem;
+    }
+}
 @media (max-width:980px){
+    #menu-principal{
+        height: 3rem;
+    }
+    .fixo img{
+        height: 3rem;
+    }
+}
+@media (max-width:990px){
+    .slide{
+        width: 100%;
+    }
+    .button-pequeno{
+        display: inline-block;
+    }
+    .button-programaçao{
+        display: none;
+    }
     .centralizar{
         display: none;
     }
@@ -230,25 +262,5 @@ header nav i:hover{
     #menu-principal .fixo{
         display: block;
         text-align: center;
-    }
-}
-@media (max-width:480px){
-    #vitrine{
-        max-width: 100%;
-        gap: 1rem;
-    }
-    .button-pequeno{
-        display: inline-block;
-    }
-    .button-programaçao{
-        display: none;
-    }
-}
-@media (max-width:980px){
-    #menu-principal{
-        height: 3rem;
-    }
-    .fixo img{
-        height: 3rem;
     }
 }
