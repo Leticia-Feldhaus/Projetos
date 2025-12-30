@@ -93,11 +93,12 @@ header nav i:hover{
     margin-right: 1rem;
 }
 #vitrine{
-    padding: 0px 1rem;
+    padding: 0 1rem;
     display: grid;
     width: 81%;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 1.5rem;
+    margin-bottom: 2rem;
 }
 .filme{
     min-height: 10rem;
@@ -264,15 +265,20 @@ header nav i:hover{
         text-align: center;
     }
     #vitrine{
-        width: 93%;
+        width: 92%;
         display: grid;
-        grid-template-columns: repeat(5, minmax(50%, 1fr));
+        grid-template-columns: repeat(5, minmax(45%, 1fr));
         overflow-x: auto;
         gap: 12px;
+        margin: 2rem;
+        padding: 0 0;
     }
     .filme{
         height: 23vh;
         height: 45vw;
         display: inline-block;
+    }
+    #vitrine::-webkit-scrollbar{
+        display: none;
     }
 }
