@@ -7,12 +7,15 @@
     --vermelho-escuro:#C41925;
     --vermelho-vinho:#88121a;
 }
+* {
+    outline: 3px solid red;
+}
 body{
     padding: 3rem 0px 0px 0px;
     margin: 0px;
     background-color: var(--preto-basico);
     font-family: "Roboto";
-    overflow-x: hidden;
+    ovelow-x: hidden;
 }
 /*
     Tirei a parte do Main{padding}, pois estava atrapalhando em outras partes
