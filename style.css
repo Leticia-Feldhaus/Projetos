@@ -94,14 +94,14 @@ header nav i:hover{
 }
 #vitrine{
     padding: 0px 1rem;
-    max-width: 100%;
     display: grid;
     width: 81%;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 1.5rem;
 }
 .filme{
-    height: 16rem;
+    min-height: 10rem;
+    height: 32vh;
     border: 3px solid var(--laranja);
     border-radius: 8px;
     overflow: hidden;
@@ -183,7 +183,6 @@ header nav i:hover{
     font-size: 0.8rem;
     transition: 0.3s;
     display: none;
-    margin: 0 auto;
 }
 .button-pequeno:hover{
     background-color: var(--vermelho-vinho);
@@ -247,7 +246,9 @@ header nav i:hover{
         width: 100%;
     }
     .button-pequeno{
-        display: inline-block;
+        display: block;
+        margin: 0 auto;
+        width: 90%;
     }
     .button-programaçao{
         display: none;
@@ -261,5 +262,13 @@ header nav i:hover{
     #menu-principal .fixo{
         display: block;
         text-align: center;
+    }
+    #vitrine{
+      width: initial;
+      white-space: nowrap !important;
+    }
+    .filme{
+        height: 53vh;
+        display: inline-block;
     }
 }
