@@ -7,15 +7,12 @@
     --vermelho-escuro:#C41925;
     --vermelho-vinho:#88121a;
 }
-* {
-    outline: 3px solid red;
-}
 body{
     padding: 3rem 0px 0px 0px;
     margin: 0px;
     background-color: var(--preto-basico);
     font-family: "Roboto";
-    ovelow-x: hidden;
+    overflow-x: hidden;
 }
 /*
     Tirei a parte do Main{padding}, pois estava atrapalhando em outras partes
@@ -46,7 +43,6 @@ header select:hover{
 }
 .redes{
     float: right;
-    margin-right: 2rem;
 }
 .redes a{
     color: var(--branco);
@@ -60,7 +56,6 @@ header select:hover{
     background-color: var(--preto-basico);
     border-bottom: 0.5px solid rgb(133, 127, 127);
     top: 0px;
-    padding: 0rem 1rem;
     z-index: 10;
     display: inline-block;
 }
