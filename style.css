@@ -13,6 +13,7 @@ body{
     background-color: var(--preto-basico);
     font-family: "Roboto";
     overflow-x: hidden;
+    box-sizing: border-box;
 }
 /*
     Tirei a parte do Main{padding}, pois estava atrapalhando em outras partes
@@ -122,9 +123,17 @@ header nav i:hover{
     font-size: 1.3rem;
     text-decoration: underline 4px var(--vermelho-escuro);
     text-underline-offset: 0.6rem;
+    display: inline-block;
 }
 .exibiçao:hover{
     cursor: pointer;
+}
+.breve{
+    display: inline-block;
+    color: var(--branco);
+    font-size: 1.3rem;
+    padding: 0 1rem;
+    font-weight: bold;
 }
 .filme img{
     width: 100%;
@@ -265,13 +274,12 @@ header nav i:hover{
         text-align: center;
     }
     #vitrine{
-        width: 92%;
+        width: 100%;
         display: grid;
-        grid-template-columns: repeat(5, minmax(45%, 1fr));
+        grid-template-columns: repeat(5, minmax(50%, 1fr));
         overflow-x: auto;
-        gap: 12px;
-        margin: 2rem;
-        padding: 0 0;
+        gap: 10px;
+        box-sizing: border-box;
     }
     .filme{
         height: 23vh;
