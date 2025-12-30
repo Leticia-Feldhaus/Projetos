@@ -264,11 +264,15 @@ header nav i:hover{
         text-align: center;
     }
     #vitrine{
-      width: initial;
-      white-space: nowrap !important;
+        width: 93%;
+        display: grid;
+        grid-template-columns: repeat(5, minmax(50%, 1fr));
+        overflow-x: auto;
+        gap: 12px;
     }
     .filme{
         height: 23vh;
+        height: 45vw;
         display: inline-block;
     }
 }
