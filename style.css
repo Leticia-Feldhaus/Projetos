@@ -158,6 +158,7 @@ header nav i:hover{
     cursor: pointer;
 }
 .button-programaçao{
+    margin-right: 1rem;
     width: 14rem;
     height: 2.5rem;
     background-color: var(--vermelho-escuro);
@@ -196,6 +197,7 @@ header nav i:hover{
     padding: 2rem 1rem;
     background-color: #2E3235;
     color: var(--branco);
+    widt: 100%;
 }
 .promo-slide > h2{
     display: block;
@@ -229,6 +231,7 @@ header nav i:hover{
         margin: 0 auto;
     }
 }
+
 @media (max-width:480px){
     #vitrine{
         max-width: 100%;
