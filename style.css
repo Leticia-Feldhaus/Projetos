@@ -120,7 +120,7 @@ header nav i:hover{
     font-weight: bold;
     font-size: 1.3rem;
     text-decoration: underline 4px var(--vermelho-escuro);
-    text-underline-offset: 0.7rem;
+    text-underline-offset: 0.6rem;
 }
 .exibiçao:hover{
     cursor: pointer;
@@ -268,7 +268,7 @@ header nav i:hover{
       white-space: nowrap !important;
     }
     .filme{
-        height: 53vh;
+        height: 23vh;
         display: inline-block;
     }
 }
